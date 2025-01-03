@@ -1,0 +1,6 @@
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache

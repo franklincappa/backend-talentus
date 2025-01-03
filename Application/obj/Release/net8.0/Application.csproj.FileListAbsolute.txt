@@ -1,0 +1,15 @@
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\bin\Release\net8.0\Application.deps.json
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\bin\Release\net8.0\Application.dll
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\bin\Release\net8.0\Application.pdb
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\bin\Release\net8.0\Core.dll
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\bin\Release\net8.0\Core.pdb
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\obj\Release\net8.0\Application.csproj.AssemblyReference.cache
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\obj\Release\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\obj\Release\net8.0\Application.AssemblyInfoInputs.cache
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\obj\Release\net8.0\Application.AssemblyInfo.cs
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\obj\Release\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\obj\Release\net8.0\Applicat.44B5EDA2.Up2Date
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\obj\Release\net8.0\Application.dll
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\obj\Release\net8.0\refint\Application.dll
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\obj\Release\net8.0\Application.pdb
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Application\obj\Release\net8.0\ref\Application.dll

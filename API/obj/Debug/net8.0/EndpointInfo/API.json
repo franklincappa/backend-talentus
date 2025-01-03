@@ -1,0 +1,365 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/v1/maestros/{tabla}": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "parameters": [
+          {
+            "name": "tabla",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/{tabla}/{codigo}": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "parameters": [
+          {
+            "name": "tabla",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "codigo",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/sexo": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/sexo/{IdSexo}": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "parameters": [
+          {
+            "name": "IdSexo",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/tipo-sangre": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/tipo-sangre/{IdTipoSangre}": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "parameters": [
+          {
+            "name": "IdTipoSangre",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/tipo-documento": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/tipo-documento/{IdTipoDocumento}": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "parameters": [
+          {
+            "name": "IdTipoDocumento",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/estado-civil": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/estado-civil/{IdEstadoCivil}": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "parameters": [
+          {
+            "name": "IdEstadoCivil",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/regimen-pension": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/regimen-pension/{IdRegimenPension}": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "parameters": [
+          {
+            "name": "IdRegimenPension",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/ubigeos": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/ubigeos/{codigo}": {
+      "get": {
+        "tags": [
+          "Maestro"
+        ],
+        "parameters": [
+          {
+            "name": "codigo",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/personas": {
+      "get": {
+        "tags": [
+          "Persona"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Persona"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/maestros/personas/{id}": {
+      "get": {
+        "tags": [
+          "Persona"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PersonaDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "documento": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

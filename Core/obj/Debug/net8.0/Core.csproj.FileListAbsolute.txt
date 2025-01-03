@@ -1,0 +1,11 @@
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\bin\Debug\net8.0\Core.deps.json
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\bin\Debug\net8.0\Core.dll
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\bin\Debug\net8.0\Core.pdb
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\Core.dll
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\refint\Core.dll
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\Core.pdb
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\ref\Core.dll

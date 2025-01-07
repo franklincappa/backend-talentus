@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Entities.Maestros
+namespace Application.DTOs.Maestros
 {
-    public class Persona
+    public class PersonaResponseDTO
     {
         public long IdPersona { get; set; }
         public string IdTipoDocumento { get; set; }
@@ -31,9 +30,8 @@ namespace Core.Entities.Maestros
         public bool Activo { get; set; }
         public string UsuarioCreacion { get; set; }
         public DateTime FechaCreacion { get; set; }
-        public string HostCreacion { get; set; }
         public string UsuarioModifica { get; set; }
         public DateTime FechaModifica { get; set; }
-        public string HostModifica { get; set; }
+
     }
 }

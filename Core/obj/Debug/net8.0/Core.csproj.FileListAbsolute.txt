@@ -9,3 +9,4 @@ D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\Core.dll
 D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\refint\Core.dll
 D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\Core.pdb
 D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\ref\Core.dll
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\Core\obj\Debug\net8.0\Core.sourcelink.json

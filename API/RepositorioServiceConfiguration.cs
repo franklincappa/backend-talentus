@@ -16,6 +16,8 @@ namespace API
 
             //Services
             servicios.AddScoped<TablaService>();
+            servicios.AddScoped<UbigeoService>();
+            servicios.AddScoped<PersonaService>();
         }
     }
 }

@@ -11,6 +11,7 @@ namespace Core.Interfaces
     {
         Task<IEnumerable<Persona>> GetAllAsync();
         Task<Persona> GetByIdAsync(long id);
-        Task AddAsync(Persona persona);
+        Task<long> AddAsync(Persona persona);
+        Task<bool> UpdateAsync(Persona persona);
     }
 }

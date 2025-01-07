@@ -13,13 +13,15 @@ namespace API.Controllers.Maestros
     public class MaestroController : ControllerBase
     {
         protected APIResponse _response;
-        private readonly IUbigeoRepository _ubigeoRepository;
+        //private readonly IUbigeoRepository _ubigeoRepository;
+        private readonly ILogger _logger;
+        private readonly UbigeoService _ubigeoService;
         private readonly TablaService _tablaService;
 
-        public MaestroController(IUbigeoRepository ubigeoRepository, TablaService tablaService)
+        public MaestroController(UbigeoService ubigeoService, TablaService tablaService)
         {
             _response = new();
-            _ubigeoRepository = ubigeoRepository;
+            _ubigeoService = ubigeoService;
             _tablaService = tablaService;
         }
         
@@ -36,7 +38,8 @@ namespace API.Controllers.Maestros
         public async Task<IActionResult> ObtenerPorTablaYCodigo(string tabla, string codigo)
         {
             var registro = await _tablaService.ObtenerPorTablaYCodigoAsync(tabla, codigo);
-            return Ok(registro);
+            _response.Data = registro; 
+            return Ok(_response);
         }
 
         //Tabla Sexo
@@ -53,7 +56,7 @@ namespace API.Controllers.Maestros
         {
             var registro = await _tablaService.ObtenerPorTablaYCodigoAsync("SEXO", IdSexo);
             _response.Data= registro;
-            return Ok(registro); 
+            return Ok(_response); 
         }
 
         //Tabla Tipo Sangre
@@ -70,7 +73,7 @@ namespace API.Controllers.Maestros
         {
             var registro = await _tablaService.ObtenerPorTablaYCodigoAsync("TIPO_SANGRE", IdTipoSangre);
             _response.Data = registro;
-            return Ok(registro);
+            return Ok(_response);
         }
 
         //Tabla Tipo Documento
@@ -87,7 +90,7 @@ namespace API.Controllers.Maestros
         {
             var registro = await _tablaService.ObtenerPorTablaYCodigoAsync("TIPO_DOCUMENTO", IdTipoDocumento);
             _response.Data = registro;
-            return Ok(registro);
+            return Ok(_response);
         }
 
         //Tabla Estado Civil
@@ -104,7 +107,7 @@ namespace API.Controllers.Maestros
         {
             var registro = await _tablaService.ObtenerPorTablaYCodigoAsync("ESTADO_CIVIL", IdEstadoCivil);
             _response.Data = registro;
-            return Ok(registro);
+            return Ok(_response);
         }
 
         //Tabla Regimen Pensión
@@ -121,14 +124,14 @@ namespace API.Controllers.Maestros
         {
             var registro = await _tablaService.ObtenerPorTablaYCodigoAsync("REGIMEN_PENSION", IdRegimenPension);
             _response.Data = registro;
-            return Ok(registro);
+            return Ok(_response);
         }
 
         //UBIGEOS
         [HttpGet("ubigeos")]
         public async Task<IActionResult> GetAllUbigeos()
         {
-            var ubigeos = await _ubigeoRepository.GetAllAsync();
+            var ubigeos = await _ubigeoService.GetAllAsync();
             _response.Data = ubigeos;
             return Ok(_response);             
         }
@@ -137,7 +140,7 @@ namespace API.Controllers.Maestros
         [HttpGet("ubigeos/{codigo}")]
         public async Task<IActionResult> GetUbigeoByCodigo(string codigo)
         {
-            var ubigeo = await _ubigeoRepository.GetByIdAsync(codigo);
+            var ubigeo = await _ubigeoService.GetByIdAsync(codigo);
             if (ubigeo == null)
             {
                 _response.Success = false;

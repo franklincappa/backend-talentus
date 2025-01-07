@@ -94,3 +94,5 @@ D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net8.0\refint\API.
 D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net8.0\API.pdb
 D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net8.0\ref\API.dll
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net8.0\API.sourcelink.json
+D:\ProyectosDev\backendTalentus-WebApi\Talentus\API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -275,6 +275,16 @@
         "tags": [
           "Persona"
         ],
+        "parameters": [
+          {
+            "name": "activo",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Success"
@@ -289,17 +299,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PersonaDTO"
+                "$ref": "#/components/schemas/PersonaRequestDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PersonaDTO"
+                "$ref": "#/components/schemas/PersonaRequestDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PersonaDTO"
+                "$ref": "#/components/schemas/PersonaRequestDTO"
               }
             }
           }
@@ -311,14 +321,14 @@
         }
       }
     },
-    "/api/v1/maestros/personas/{id}": {
+    "/api/v1/maestros/personas/{idPersona}": {
       "get": {
         "tags": [
           "Persona"
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "idPersona",
             "in": "path",
             "required": true,
             "style": "simple",
@@ -333,29 +343,142 @@
             "description": "Success"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Persona"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "idPersona",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonaRequestDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonaRequestDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonaRequestDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     }
   },
   "components": {
     "schemas": {
-      "PersonaDTO": {
+      "PersonaRequestDTO": {
         "type": "object",
         "properties": {
-          "id": {
+          "idPersona": {
             "type": "integer",
             "format": "int64"
           },
-          "nombre": {
+          "idTipoDocumento": {
             "type": "string",
             "nullable": true
           },
-          "apellido": {
+          "nroDocumento": {
             "type": "string",
             "nullable": true
           },
-          "documento": {
+          "nombres": {
             "type": "string",
             "nullable": true
+          },
+          "apellidoPaterno": {
+            "type": "string",
+            "nullable": true
+          },
+          "apellidoMaterno": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "idPais": {
+            "type": "string",
+            "nullable": true
+          },
+          "ubigeo": {
+            "type": "string",
+            "nullable": true
+          },
+          "idSexo": {
+            "type": "string",
+            "nullable": true
+          },
+          "idEstadoCivil": {
+            "type": "string",
+            "nullable": true
+          },
+          "ciudad": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "idProfesion": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "idTipoSangre": {
+            "type": "string",
+            "nullable": true
+          },
+          "idRegimenPension": {
+            "type": "string",
+            "nullable": true
+          },
+          "notas": {
+            "type": "string",
+            "nullable": true
+          },
+          "activo": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

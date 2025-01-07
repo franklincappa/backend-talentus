@@ -3396,8 +3396,8 @@
     },
     "Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Infraestructure/Infrastructure.csproj",
-      "msbuildProject": "../Infraestructure/Infrastructure.csproj"
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3448,8 +3448,8 @@
             "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Core\\Core.csproj": {
               "projectPath": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Core\\Core.csproj"
             },
-            "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Infraestructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Infraestructure\\Infrastructure.csproj"
+            "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

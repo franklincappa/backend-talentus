@@ -1,19 +1,107 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0080F7D-41FB-44B8-AE89-5C1C4ACB63F2}|Infrastructure\\Infrastructure.csproj|d:\\proyectosdev\\backendtalentus-webapi\\talentus\\infrastructure\\persistence\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0080F7D-41FB-44B8-AE89-5C1C4ACB63F2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18101A26-4D47-49CD-AB04-C42305EFE3E1}|Core\\Core.csproj|d:\\proyectosdev\\backendtalentus-webapi\\talentus\\core\\entities\\maestros\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18101A26-4D47-49CD-AB04-C42305EFE3E1}|Core\\Core.csproj|solutionrelative:core\\entities\\maestros\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18101A26-4D47-49CD-AB04-C42305EFE3E1}|Core\\Core.csproj|d:\\proyectosdev\\backendtalentus-webapi\\talentus\\core\\services\\personaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18101A26-4D47-49CD-AB04-C42305EFE3E1}|Core\\Core.csproj|solutionrelative:core\\services\\personaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FFB0838-7B4F-42CB-8993-CAB0A2BCB653}|API\\API.csproj|d:\\proyectosdev\\backendtalentus-webapi\\talentus\\api\\controllers\\maestros\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FFB0838-7B4F-42CB-8993-CAB0A2BCB653}|API\\API.csproj|solutionrelative:api\\controllers\\maestros\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FFB0838-7B4F-42CB-8993-CAB0A2BCB653}|API\\API.csproj|d:\\proyectosdev\\backendtalentus-webapi\\talentus\\api\\controllers\\maestros\\maestrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FFB0838-7B4F-42CB-8993-CAB0A2BCB653}|API\\API.csproj|solutionrelative:api\\controllers\\maestros\\maestrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 210,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\API\\Controllers\\Maestros\\PersonaController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\Maestros\\PersonaController.cs",
+              "ToolTip": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\API\\Controllers\\Maestros\\PersonaController.cs",
+              "RelativeToolTip": "API\\Controllers\\Maestros\\PersonaController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwD4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:42:47.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 190,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonaRepository.cs",
+              "DocumentMoniker": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Infrastructure\\Persistence\\PersonaRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\PersonaRepository.cs",
+              "ToolTip": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Infrastructure\\Persistence\\PersonaRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\PersonaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T13:38:10.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Core\\Entities\\Maestros\\Persona.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Maestros\\Persona.cs",
+              "ToolTip": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Core\\Entities\\Maestros\\Persona.cs",
+              "RelativeToolTip": "Core\\Entities\\Maestros\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T13:37:30.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonaService.cs",
+              "DocumentMoniker": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Core\\Services\\PersonaService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\PersonaService.cs",
+              "ToolTip": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\Core\\Services\\PersonaService.cs",
+              "RelativeToolTip": "Core\\Services\\PersonaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T13:16:52.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaestroController.cs",
+              "DocumentMoniker": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\API\\Controllers\\Maestros\\MaestroController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\Maestros\\MaestroController.cs",
+              "ToolTip": "D:\\ProyectosDev\\backendTalentus-WebApi\\Talentus\\API\\Controllers\\Maestros\\MaestroController.cs",
+              "RelativeToolTip": "API\\Controllers\\Maestros\\MaestroController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T12:05:05.821Z",
+              "EditorCaption": ""
             }
           ]
         }
